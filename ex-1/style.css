@@ -167,4 +167,37 @@ h3 {
   left: 0px;
 }
 
-/* Start coding here */
+@media only screen and (max-width: 375px) {
+  body {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topic {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .job-item {
+    width: 333px;
+  }
+  .row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .job-more {
+    width: 333px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
